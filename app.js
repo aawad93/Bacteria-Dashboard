@@ -24,7 +24,7 @@ function populateDefaultPage(samples){
         var dataBar = [{
                 type: "bar",
                 x: defaultPage.sample_values.slice(0,11),
-                y: defaultPage.otu_ids.slice(0,11),
+                y: defaultPage.otu_labelss.slice(0,11),
                 text: defaultPage.otu_labels.slice(0,11),
                 orientation: "h"
         }];
